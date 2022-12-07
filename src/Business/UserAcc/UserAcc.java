@@ -4,8 +4,8 @@
  */
 package Buss.UserAccount;
 
-import Buss.Employee.Employee;
-import Buss.Role.Role;
+import Business.Employee.Employee;
+import Business.Role.Role;
 import Buss.WorkQueue.WorkQueue;
 
 /**

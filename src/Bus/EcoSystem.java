@@ -5,10 +5,10 @@
  */
 package Bus;
 
-import Buss.Network.Network;
+import Business.Network.Network;
 import Buss.Organiztion.Organization;
-import Buss.Role.Role;
-import Buss.Role.SystemAdminRole;
+import Business.Role.Role;
+import Business.Role.SystemAdminRole;
 import java.util.ArrayList;
 /**
  *

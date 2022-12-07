@@ -1,7 +1,7 @@
 package Bus;
 
-import Buss.Employee.Employee;
-import Buss.Role.SystemAdminRole;
+import Business.Employee.Employee;
+import Business.Role.SystemAdminRole;
 import Buss.UserAccount.UserAccount;
 
 /**
