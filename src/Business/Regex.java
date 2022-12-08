@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author Little Giants
+ * @author Abhishek Badhe
  */
 public class Regex {
     public static int c=0;

@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Little Giants
+ * @author Abhishek Badhe
  */
 public class MainJFrame extends javax.swing.JFrame {
 
