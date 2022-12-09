@@ -6,7 +6,7 @@ package Business.Organization;
 
 import Business.Employee.EmployeeDir;
 import Business.Role.Role;
-import Business.UserAccount.UserAccountDirectory;
+import Business.UserAccount.UserAccountDir;
 import Business.Visitor.VisitorDirectory;
 import Business.WorkQueue.WorkQueue;
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ public abstract class Organization {
     private String name;
     private WorkQueue workQueue;
     private EmployeeDir employeeDirectory;
-    private UserAccountDirectory userAccountDirectory;
+    private UserAccountDir userAccountDirectory;
     private VisitorDirectory visitorDirectory;
     private int organizationID;
     private static int counter=0;
@@ -40,7 +40,7 @@ public abstract class Organization {
         this.name = name;
         workQueue = new WorkQueue();
         employeeDirectory = new EmployeeDir();
-        userAccountDirectory = new UserAccountDirectory();
+        userAccountDirectory = new UserAccountDir();
         visitorDirectory=new VisitorDirectory();
         organizationID = counter;
         ++counter;
@@ -64,7 +64,7 @@ public abstract class Organization {
 
     public abstract ArrayList<Role> getSupportedRole();
     
-    public UserAccountDirectory getUserAccountDirectory() {
+    public UserAccountDir getUserAccountDirectory() {
         return userAccountDirectory;
     }
 

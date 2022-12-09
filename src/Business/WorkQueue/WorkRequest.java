@@ -4,17 +4,17 @@
  */
 package Business.WorkQueue;
 
-import Business.UserAccount.UserAcc;
+import Business.UserAccount.UserAccount;
 import java.util.Date;
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 public abstract class WorkRequest {
 
     private String message;
-    private UserAcc sender;
-    private UserAcc receiver;
+    private UserAccount sender;
+    private UserAccount receiver;
     private String status;
     private Date requestDate;
     private Date resolveDate;
@@ -32,19 +32,19 @@ public abstract class WorkRequest {
         this.message = message;
     }
 
-    public UserAcc getSender() {
+    public UserAccount getSender() {
         return sender;
     }
 
-    public void setSender(UserAcc sender) {
+    public void setSender(UserAccount sender) {
         this.sender = sender;
     }
 
-    public UserAcc getReceiver() {
+    public UserAccount getReceiver() {
         return receiver;
     }
 
-    public void setReceiver(UserAcc receiver) {
+    public void setReceiver(UserAccount receiver) {
         this.receiver = receiver;
     }
 

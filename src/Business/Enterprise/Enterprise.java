@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Buss.Enterprise;
+package Business.Enterprise;
 
-import Buss.Organiztion.Organization;
-import Buss.Organiztion.OrganizationDir;
+import Business.Organization.Organization;
+import Business.Organization.OrganizationDir;
 
 /**
  *

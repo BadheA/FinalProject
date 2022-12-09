@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 
 public class ProcessPhaseJPanel extends javax.swing.JPanel {

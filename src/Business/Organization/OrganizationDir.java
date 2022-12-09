@@ -30,23 +30,23 @@ public class OrganizationDir {
             organizationList.add(organization);
         }
         else if (type.getValue().equals(Type.Visitor.getValue())){
-            organization = new VisitorOrganization();
+            organization = new VisitorOrg();
             organizationList.add(organization);
         }
          else if (type.getValue().equals(Type.Screening.getValue())){
-            organization = new ScreeningOrganization();
+            organization = new ScreeningOrg();
             organizationList.add(organization);
         }
          else if (type.getValue().equals(Type.Radiology.getValue())){
-            organization = new RadiologyOrganization();
+            organization = new RadiologyOrg();
             organizationList.add(organization);
         }
          else if (type.getValue().equals(Type.ResearchScientist.getValue())){
-            organization = new ResearchScientistOrganization();
+            organization = new ResearchScientistOrg();
             organizationList.add(organization);
         }
          else if (type.getValue().equals(Type.ResearchAssistant.getValue())){
-            organization = new ResearchAssistantOrganization();
+            organization = new ResearchAssistantOrg();
             organizationList.add(organization);
         }
         return organization;

@@ -5,7 +5,7 @@
  */
 package Business.Network;
 
-import Buss.Enterprise.EnterpriseDir;
+import Business.Enterprise.EnterpriseDir;
 
 /**
  *

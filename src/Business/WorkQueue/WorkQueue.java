@@ -7,7 +7,7 @@ package Business.WorkQueue;
 import java.util.ArrayList;
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 
 public class WorkQueue {

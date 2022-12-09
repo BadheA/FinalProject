@@ -7,21 +7,21 @@ package userinterface.ResearchAsstRole;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
 import Business.Organization.Organization;
-import Business.Organization.ResearchAssistantOrganization;
+import Business.Organization.ResearchAssistantOrg;
 import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 public class ResearchAssistantWorkAreaJPanel extends javax.swing.JPanel {
 
     private JPanel userProcessContainer;
     private EcoSystem business;
     private UserAccount userAccount;
-    private ResearchAssistantOrganization researchAssistantOrganization;
+    private ResearchAssistantOrg researchAssistantOrganization;
     private Enterprise enterprise;
     
    /**
@@ -37,7 +37,7 @@ public class ResearchAssistantWorkAreaJPanel extends javax.swing.JPanel {
         this.userProcessContainer = userProcessContainer;
         this.userAccount = account;
         this.business = business;
-        this.researchAssistantOrganization = (ResearchAssistantOrganization)organization;
+        this.researchAssistantOrganization = (ResearchAssistantOrg)organization;
      
     }
     

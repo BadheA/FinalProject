@@ -4,12 +4,12 @@
  */
 package Business.Role;
 
-import Bus.EcoSystem;
-import Buss.Enterprise.Enterprise;
-import Buss.Organiztion.Organization;
-import Buss.UserAccount.UserAccount;
+import Business.EcoSystem;
+import Business.Enterprise.Enterprise;
+import Business.Organization.Organization;
+import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import userinterface.ResearchAssistantRole.ResearchAssistantWorkAreaJPanel;
+import userinterface.ResearchAsstRole.ResearchAssistantWorkAreaJPanel;
 
 /**
  *

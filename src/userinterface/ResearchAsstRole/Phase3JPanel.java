@@ -6,11 +6,11 @@ package userinterface.ResearchAsstRole;
 
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
-import Business.Enterprise.LaboratoryEnterprise;
+import Business.Enterprise.LabEnterprise;
 import Business.Network.Network;
 import Business.Organization.Organization;
-import Business.Organization.ResearchAssistantOrganization;
-import Business.Organization.ScreeningOrganization;
+import Business.Organization.ResearchAssistantOrg;
+import Business.Organization.ScreeningOrg;
 import Business.UserAccount.UserAccount;
 import Business.Visitor.Phase;
 import Business.Visitor.Visitor;
@@ -24,7 +24,7 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 
 
@@ -33,7 +33,7 @@ public class Phase3JPanel extends javax.swing.JPanel {
     private JPanel userProcessContainer;
     private EcoSystem business;
     private UserAccount userAccount;
-    private ResearchAssistantOrganization researchAssistantOrganization;
+    private ResearchAssistantOrg researchAssistantOrganization;
     private Enterprise enterprise;
     
     public Phase3JPanel(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise,EcoSystem business) {
@@ -42,7 +42,7 @@ public class Phase3JPanel extends javax.swing.JPanel {
         this.userProcessContainer = userProcessContainer;
         this.userAccount = account;
         this.business = business;
-        this.researchAssistantOrganization = (ResearchAssistantOrganization)organization;
+        this.researchAssistantOrganization = (ResearchAssistantOrg)organization;
         populateTable();
     }
 
@@ -340,9 +340,9 @@ public class Phase3JPanel extends javax.swing.JPanel {
        for(Network n: business.getNetworkList()){
            
             for(Enterprise e:n.getEnterpriseDirectory().getEnterpriseList()){
-                if(e instanceof LaboratoryEnterprise){
+                if(e instanceof LabEnterprise){
                    for(Organization org:  e.getOrganizationDirectory().getOrganizationList()){
-                       if(org instanceof ScreeningOrganization){
+                       if(org instanceof ScreeningOrg){
                            o=org;
                            
                        }

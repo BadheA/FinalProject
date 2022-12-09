@@ -4,11 +4,11 @@
  */
 package Business.Role;
 
-import Bus.EcoSystem;
-import Buss.Enterprise.Enterprise;
-import Buss.Organiztion.DoctorOrg;
-import Buss.Organiztion.Organization;
-import Buss.UserAccount.UserAccount;
+import Business.EcoSystem;
+import Business.Enterprise.Enterprise;
+import Business.Organization.DoctorOrg;
+import Business.Organization.Organization;
+import Business.UserAccount.UserAccount;
 import userinterface.DoctorRole.ManagePatientsJPanel;
 import javax.swing.JPanel;
 import userinterface.DoctorRole.DoctorWorkAreaJPanel;

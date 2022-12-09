@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Buss.Enterprise;
+package Business.Enterprise;
 
-import Buss.Organiztion.OrganizationDir;
+import Business.Organization.OrganizationDir;
 import java.util.ArrayList;
 
 /**
@@ -37,12 +37,12 @@ public class EnterpriseDir {
         }
     
       if(type==Enterprise.EnterpriseType.Laboratory){
-            enterprise=new LaboratoryEnterprise(name);
+            enterprise=new LabEnterprise(name);
             enterpriseList.add(enterprise);
         }
     
   if(type==Enterprise.EnterpriseType.ResearchDepartment){
-            enterprise=new ResearchDepartmentEnterprise(name);
+            enterprise=new ResearchDeptEnterprise(name);
             enterpriseList.add(enterprise);
         }
         return enterprise;

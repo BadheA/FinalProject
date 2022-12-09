@@ -7,7 +7,7 @@ package userinterface;
 
 /**
  *
- * @author Abhishek Badhe
+ * @author mahit
  */
 public class LogoutJPanel extends javax.swing.JPanel {
 

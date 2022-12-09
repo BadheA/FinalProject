@@ -4,10 +4,9 @@
  */
 package userinterface.DoctorRole;
 
-import userinterface.LabAssistantRole.*;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
-import Business.Organization.ScreeningOrganization;
+import Business.Organization.ScreeningOrg;
 import Business.Organization.Organization;
 import Business.UserAccount.UserAccount;
 import Business.Visitor.Visitor;
@@ -20,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
 

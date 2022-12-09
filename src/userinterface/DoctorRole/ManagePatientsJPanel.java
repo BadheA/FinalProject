@@ -6,11 +6,11 @@
 package userinterface.DoctorRole;
 import Business.EcoSystem;
 import Business.Enterprise.Enterprise;
-import Business.Enterprise.LaboratoryEnterprise;
+import Business.Enterprise.LabEnterprise;
 import Business.Network.Network;
 import Business.Organization.Organization;
-import Business.Organization.RadiologyOrganization;
-import Business.Organization.ScreeningOrganization;
+import Business.Organization.RadiologyOrg;
+import Business.Organization.ScreeningOrg;
 import Business.UserAccount.UserAccount;
 import Business.Visitor.Visitor;
 import Business.Visitor.VitalSigns;
@@ -24,7 +24,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 
 public class ManagePatientsJPanel extends javax.swing.JPanel {
@@ -407,9 +407,9 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
        for(Network n: business.getNetworkList()){
            
             for(Enterprise e:n.getEnterpriseDirectory().getEnterpriseList()){
-                if(e instanceof LaboratoryEnterprise){
+                if(e instanceof LabEnterprise){
                    for(Organization org:  e.getOrganizationDirectory().getOrganizationList()){
-                       if(org instanceof ScreeningOrganization){
+                       if(org instanceof ScreeningOrg){
                            o=org;
                            
                        }
@@ -446,9 +446,9 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
        for(Network n: business.getNetworkList()){
            
             for(Enterprise e:n.getEnterpriseDirectory().getEnterpriseList()){
-                if(e instanceof LaboratoryEnterprise){
+                if(e instanceof LabEnterprise){
                    for(Organization org:  e.getOrganizationDirectory().getOrganizationList()){
-                       if(org instanceof ScreeningOrganization){
+                       if(org instanceof ScreeningOrg){
                            o=org;
                            
                        }
@@ -487,9 +487,9 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
        for(Network n: business.getNetworkList()){
            
             for(Enterprise e:n.getEnterpriseDirectory().getEnterpriseList()){
-                if(e instanceof LaboratoryEnterprise){
+                if(e instanceof LabEnterprise){
                    for(Organization org:  e.getOrganizationDirectory().getOrganizationList()){
-                       if(org instanceof ScreeningOrganization){
+                       if(org instanceof ScreeningOrg){
                            o=org;
                            
                        }
@@ -524,9 +524,9 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
            String name = PatientName.getText();
        for(Network n: business.getNetworkList()){
             for(Enterprise e:n.getEnterpriseDirectory().getEnterpriseList()){
-                if(e instanceof LaboratoryEnterprise){
+                if(e instanceof LabEnterprise){
                    for(Organization org:  e.getOrganizationDirectory().getOrganizationList()){
-                       if(org instanceof RadiologyOrganization){
+                       if(org instanceof RadiologyOrg){
                            o=org;
                            
                        }
@@ -562,9 +562,9 @@ public class ManagePatientsJPanel extends javax.swing.JPanel {
            String name = PatientName.getText();
        for(Network n: business.getNetworkList()){
             for(Enterprise e:n.getEnterpriseDirectory().getEnterpriseList()){
-                if(e instanceof LaboratoryEnterprise){
+                if(e instanceof LabEnterprise){
                    for(Organization org:  e.getOrganizationDirectory().getOrganizationList()){
-                       if(org instanceof RadiologyOrganization){
+                       if(org instanceof RadiologyOrg){
                            o=org;
                            
                        }

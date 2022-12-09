@@ -5,19 +5,19 @@
  */
 package Business.Visitor;
 
-import Business.UserAccount.UserAcc;
+import Business.UserAccount.UserAccount;
 import java.util.ArrayList;
 
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 
 public class Visitor {
     
-   private String pocName;
+    private String pocName;
     private String pocContact;
-    private String name;
+     private String name;
     private int age;
     private String gender;
     private String bloodGroup;
@@ -33,14 +33,14 @@ public class Visitor {
   private boolean volunteer;
   private String selectedBy;
   private String researchStatus;
-  private UserAcc assignedDoctor;
+  private UserAccount assignedDoctor;
  private String status;
 
-    public UserAcc getAssignedDoctor() {
+    public UserAccount getAssignedDoctor() {
         return assignedDoctor;
     }
 
-    public void setAssignedDoctor(UserAcc assignedDoctor) {
+    public void setAssignedDoctor(UserAccount assignedDoctor) {
         this.assignedDoctor = assignedDoctor;
     }
 

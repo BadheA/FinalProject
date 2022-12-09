@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
 /**
  *
- * @author Abhishek Badhe
+ * @author Little Giants
  */
 
 
