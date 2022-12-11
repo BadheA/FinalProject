@@ -155,7 +155,6 @@ void populateDropdownTestName(){
         jLabel20 = new javax.swing.JLabel();
         patientNameTextField = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
-        jLabel21 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         AgeTextField = new javax.swing.JTextField();
@@ -197,9 +196,9 @@ void populateDropdownTestName(){
 
         jButton1.setText("jButton1");
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
-        refreshTestJButton.setBackground(new java.awt.Color(88, 177, 159));
+        refreshTestJButton.setBackground(new java.awt.Color(204, 204, 255));
         refreshTestJButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         refreshTestJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/Actions-view-refresh-icon.png"))); // NOI18N
         refreshTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -209,15 +208,13 @@ void populateDropdownTestName(){
         });
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        valueLabel.setForeground(new java.awt.Color(255, 51, 0));
         valueLabel.setText("<value>");
 
-        enterpriseLabel.setBackground(new java.awt.Color(255, 0, 0));
+        enterpriseLabel.setBackground(new java.awt.Color(0, 0, 0));
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        enterpriseLabel.setForeground(new java.awt.Color(255, 51, 0));
         enterpriseLabel.setText("Enterprise :");
 
-        workRequestJTable.setBackground(new java.awt.Color(204, 255, 204));
+        workRequestJTable.setBackground(new java.awt.Color(204, 204, 255));
         workRequestJTable.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -248,7 +245,7 @@ void populateDropdownTestName(){
         workRequestJTable.setSelectionBackground(new java.awt.Color(88, 177, 159));
         jScrollPane1.setViewportView(workRequestJTable);
 
-        backJButton.setBackground(new java.awt.Color(88, 177, 159));
+        backJButton.setBackground(new java.awt.Color(204, 204, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -262,7 +259,7 @@ void populateDropdownTestName(){
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("TestName");
 
-        TestName.setBackground(new java.awt.Color(88, 177, 159));
+        TestName.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setText("Blood pressure :");
@@ -312,29 +309,23 @@ void populateDropdownTestName(){
 
         patientNameTextField.setEnabled(false);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/doctornoddin.gif"))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 492, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setText("View Lab Report");
+        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -346,8 +337,9 @@ void populateDropdownTestName(){
 
         AgeTextField.setEnabled(false);
 
-        jButton3.setBackground(new java.awt.Color(88, 177, 159));
+        jButton3.setBackground(new java.awt.Color(204, 204, 204));
         jButton3.setText("Save my decision");
+        jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -445,13 +437,10 @@ void populateDropdownTestName(){
                                     .addComponent(refreshTestJButton)))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(bpTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(16, 16, 16)
-                                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(15, 15, 15)
-                                        .addComponent(rrTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(16, 16, 16)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(rrTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel17)
@@ -665,7 +654,6 @@ private void sendEmail(String emailAdd, boolean eligible) {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
