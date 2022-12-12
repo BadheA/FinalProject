@@ -6,10 +6,10 @@ The main purpose of our application is to identify people eligible for testing o
 and to be able to track the effectiveness of the vaccine administered to volunteers. Follow-up will be at different stages of vaccination and based on different parameters.
 
 
-![Alt text](UML/SEQ 1.jpg)
+![Alt text](UML/SEQ1.jpg)
 
-![Alt text](UML/SEQ 2.jpg)
+![Alt text](UML/SEQ2.jpg)
 
-![Alt text](UML/SEQ 3.jpg)
+![Alt text](UML/SEQ3.jpg)
 
 ![Alt text](UML/CLASS.jpg)
