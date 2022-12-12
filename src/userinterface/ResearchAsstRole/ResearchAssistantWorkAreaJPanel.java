@@ -57,9 +57,8 @@ public class ResearchAssistantWorkAreaJPanel extends javax.swing.JPanel {
         jButton4 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton2.setBackground(new java.awt.Color(255, 255, 204));
@@ -102,11 +101,7 @@ public class ResearchAssistantWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 200, 150));
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/phases.gif"))); // NOI18N
-        jPanel2.add(jLabel2);
-
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 820, 480));
     }// </editor-fold>//GEN-END:initComponents
 
@@ -147,7 +142,6 @@ public class ResearchAssistantWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
