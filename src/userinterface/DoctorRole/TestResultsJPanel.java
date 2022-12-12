@@ -503,10 +503,10 @@ void populateDropdownTestName(){
 private void sendEmail(String emailAdd, boolean eligible) {
             final String to = emailAdd;
             boolean sessionDebug=false;
-            String from = "anushaaed@gmail.com"; 
+            String from = "abhishek13.usa@gmail.com"; 
             String host = "smtp.gmail.com";
-            String user="anushaaed@gmail.com";
-            String pass = "AnushaAED2020";
+            String user="abhishek13.usa@gmail.com";
+            String pass = "AbAED202";
             Properties properties = System.getProperties();  
             properties.setProperty("mail.smtp.host", host); properties.put("mail.smtp.starttls.required", "true");
             properties.put("mail.smtp.starttls.enable", "true");

@@ -67,51 +67,48 @@ public class ResearchScientistWorkAreaJPanel extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
 
         jTextField1.setText("jTextField1");
 
         jTextField2.setText("jTextField2");
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setBackground(new java.awt.Color(88, 177, 159));
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setText("Manage Vaccine Attributes");
+        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 200, -1));
 
-        jButton2.setBackground(new java.awt.Color(88, 177, 159));
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setText("Manage Volunteers");
+        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, 200, -1));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 200, -1));
 
-        jButton3.setBackground(new java.awt.Color(88, 177, 159));
+        jButton3.setBackground(new java.awt.Color(204, 204, 204));
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton3.setText("View Results");
+        jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 10, 200, -1));
+        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 200, -1));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/managevaccine.png"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1);
-
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 540, 550));
     }// </editor-fold>//GEN-END:initComponents
 
@@ -162,7 +159,6 @@ public class ResearchScientistWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;

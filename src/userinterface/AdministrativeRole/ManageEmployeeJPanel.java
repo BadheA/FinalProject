@@ -82,9 +82,8 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         organizationEmpJComboBox = new javax.swing.JComboBox();
         jLabel3 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -119,18 +118,20 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             organizationJTable.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        addJButton.setBackground(new java.awt.Color(88, 177, 159));
+        addJButton.setBackground(new java.awt.Color(204, 204, 204));
         addJButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         addJButton.setText("Create");
+        addJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         addJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addJButtonActionPerformed(evt);
             }
         });
 
-        organizationJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        organizationJComboBox.setBackground(new java.awt.Color(204, 204, 204));
         organizationJComboBox.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         organizationJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        organizationJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         organizationJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 organizationJComboBoxActionPerformed(evt);
@@ -140,7 +141,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Sort by Organization");
 
-        backJButton.setBackground(new java.awt.Color(88, 177, 159));
+        backJButton.setBackground(new java.awt.Color(204, 204, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,9 +154,10 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
 
         nameJTextField.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
-        organizationEmpJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        organizationEmpJComboBox.setBackground(new java.awt.Color(204, 204, 204));
         organizationEmpJComboBox.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         organizationEmpJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        organizationEmpJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         organizationEmpJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 organizationEmpJComboBoxActionPerformed(evt);
@@ -165,25 +167,17 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Organization");
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/createemployee.gif"))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(25, Short.MAX_VALUE)
-                .addComponent(jLabel4)
-                .addContainerGap())
+            .addGap(0, 381, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(106, 106, 106))
+            .addGap(0, 312, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -317,7 +311,6 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameJTextField;

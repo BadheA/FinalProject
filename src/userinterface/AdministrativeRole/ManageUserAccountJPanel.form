@@ -3,7 +3,7 @@
 <Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+      <Color blue="ff" green="cc" red="cc" type="rgb"/>
     </Property>
   </Properties>
   <AuxValues>
@@ -114,9 +114,14 @@
     <Component class="javax.swing.JButton" name="createUserJButton">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="9f" green="b1" red="58" type="rgb"/>
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Create"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createUserJButtonActionPerformed"/>
@@ -190,17 +195,22 @@
     <Component class="javax.swing.JComboBox" name="employeeJComboBox">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="9f" green="b1" red="58" type="rgb"/>
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="backjButton1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="9f" green="b1" red="58" type="rgb"/>
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="18" style="0"/>
@@ -224,10 +234,15 @@
     <Component class="javax.swing.JComboBox" name="organizationJComboBox">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="9f" green="b1" red="58" type="rgb"/>
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
         </Property>
       </Properties>
       <Events>
@@ -245,10 +260,15 @@
     <Component class="javax.swing.JComboBox" name="roleJComboBox">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="9f" green="b1" red="58" type="rgb"/>
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
         </Property>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
         </Property>
       </Properties>
     </Component>
@@ -257,39 +277,22 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
         </Property>
       </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel6" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
+              <EmptySpace min="0" pref="812" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel6" pref="637" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
+              <EmptySpace min="0" pref="649" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
-      <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel6">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/userinterface/Images/user_icon.gif"/>
-            </Property>
-          </Properties>
-        </Component>
-      </SubComponents>
     </Container>
   </SubComponents>
 </Form>

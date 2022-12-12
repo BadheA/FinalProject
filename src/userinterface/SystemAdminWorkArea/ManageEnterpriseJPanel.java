@@ -87,11 +87,10 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         submitJButton = new javax.swing.JButton();
         backJButton = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
+        setForeground(new java.awt.Color(204, 204, 255));
 
         enterpriseJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -118,9 +117,10 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Network");
 
-        networkJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        networkJComboBox.setBackground(new java.awt.Color(204, 204, 204));
         networkJComboBox.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         networkJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        networkJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("Name");
@@ -130,20 +130,22 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Enterprise Type");
 
-        enterpriseTypeJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        enterpriseTypeJComboBox.setBackground(new java.awt.Color(204, 204, 204));
         enterpriseTypeJComboBox.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         enterpriseTypeJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        enterpriseTypeJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        submitJButton.setBackground(new java.awt.Color(88, 177, 159));
+        submitJButton.setBackground(new java.awt.Color(204, 204, 204));
         submitJButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         submitJButton.setText("Submit");
+        submitJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
             }
         });
 
-        backJButton.setBackground(new java.awt.Color(88, 177, 159));
+        backJButton.setBackground(new java.awt.Color(204, 204, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,46 +153,30 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/laboratory.jpg"))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 397, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4)
-                .addContainerGap(521, Short.MAX_VALUE))
+            .addGap(0, 977, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/fecal-transplant-brigham-womens.jpg"))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 912, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 462, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -247,8 +233,8 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(226, Short.MAX_VALUE))
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(219, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -308,8 +294,6 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;

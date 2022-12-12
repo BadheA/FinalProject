@@ -133,10 +133,9 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
         maxAgeTextField = new javax.swing.JTextField();
         vaccineType = new javax.swing.JComboBox<>();
         jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
         dose1 = new javax.swing.JComboBox<>();
-        jLabel20 = new javax.swing.JLabel();
 
         jLabel5.setText("Blood pressure :");
 
@@ -172,18 +171,17 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 23)); // NOI18N
         jLabel4.setText("Interested in Organ Donation?");
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        valueLabel.setForeground(new java.awt.Color(255, 0, 51));
         valueLabel.setText("<value>");
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        enterpriseLabel.setForeground(new java.awt.Color(255, 0, 0));
         enterpriseLabel.setText("Enterprise :");
 
         backJButton.setBackground(new java.awt.Color(88, 177, 159));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
+        backJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backJButtonActionPerformed(evt);
@@ -211,18 +209,20 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
         jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel17.setText("Age");
 
-        saveBtn.setBackground(new java.awt.Color(88, 177, 159));
+        saveBtn.setBackground(new java.awt.Color(204, 204, 204));
         saveBtn.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         saveBtn.setText("Save");
+        saveBtn.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveBtnActionPerformed(evt);
             }
         });
 
-        DoseBtn.setBackground(new java.awt.Color(88, 177, 159));
+        DoseBtn.setBackground(new java.awt.Color(204, 204, 204));
         DoseBtn.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         DoseBtn.setText("Add dose");
+        DoseBtn.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         DoseBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 DoseBtnActionPerformed(evt);
@@ -240,9 +240,7 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
 
         jLabel18.setText("from");
 
-        jLabel19.setText("to");
-
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -255,14 +253,15 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
             .addGap(0, 240, Short.MAX_VALUE)
         );
 
-        dose1.setBackground(new java.awt.Color(88, 177, 159));
+        jLabel19.setText("to");
+
+        dose1.setBackground(new java.awt.Color(204, 204, 204));
+        dose1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         dose1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dose1ActionPerformed(evt);
             }
         });
-
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/Volunteers-Needed.jpg"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -315,9 +314,7 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
                                     .addComponent(jLabel19)
                                     .addGap(18, 18, 18)
                                     .addComponent(maxAgeTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(103, 103, 103)
-                        .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 573, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(87, 87, 87)
+                        .addGap(763, 763, 763)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(66, 66, 66))))
         );
@@ -336,7 +333,6 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
                 .addGap(100, 100, 100)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
@@ -364,7 +360,7 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
                             .addComponent(dosesTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(DoseBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(dose1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(1066, Short.MAX_VALUE))
+                .addContainerGap(1068, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -564,7 +560,6 @@ public class ManageVaccineJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

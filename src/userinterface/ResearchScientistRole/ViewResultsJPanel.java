@@ -179,11 +179,12 @@ public void populateTable(){
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
-        processJButton.setBackground(new java.awt.Color(88, 177, 159));
+        processJButton.setBackground(new java.awt.Color(204, 204, 204));
         processJButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         processJButton.setText("View LineChart");
+        processJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         processJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 processJButtonActionPerformed(evt);
@@ -216,7 +217,7 @@ public void populateTable(){
         ResultsJTable.setSelectionBackground(new java.awt.Color(88, 177, 159));
         jScrollPane1.setViewportView(ResultsJTable);
 
-        jButton1.setBackground(new java.awt.Color(88, 177, 159));
+        jButton1.setBackground(new java.awt.Color(204, 204, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -224,8 +225,9 @@ public void populateTable(){
             }
         });
 
-        pieButton.setBackground(new java.awt.Color(88, 177, 159));
+        pieButton.setBackground(new java.awt.Color(204, 204, 204));
         pieButton.setText("View PieChart");
+        pieButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         pieButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pieButtonActionPerformed(evt);
@@ -279,7 +281,7 @@ public void populateTable(){
                         .addGap(456, 456, 456)
                         .addComponent(processJButton)
                         .addGap(35, 35, 35)
-                        .addComponent(pieButton))
+                        .addComponent(pieButton, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(107, 107, 107)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -301,9 +303,9 @@ public void populateTable(){
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(processJButton)
                     .addComponent(pieButton))
-                .addGap(154, 154, 154)
+                .addGap(26, 26, 26)
                 .addComponent(jLabel2)
-                .addGap(38, 38, 38)
+                .addGap(18, 18, 18)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );

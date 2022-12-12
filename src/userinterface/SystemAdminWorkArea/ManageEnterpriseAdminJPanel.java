@@ -99,9 +99,8 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         passwordJPasswordField = new javax.swing.JPasswordField();
         backJButton = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         enterpriseJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -128,9 +127,10 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Network");
 
-        networkJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        networkJComboBox.setBackground(new java.awt.Color(204, 204, 204));
         networkJComboBox.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         networkJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        networkJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         networkJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 networkJComboBoxActionPerformed(evt);
@@ -143,13 +143,16 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Enterprise");
 
-        enterpriseJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        enterpriseJComboBox.setBackground(new java.awt.Color(204, 204, 204));
         enterpriseJComboBox.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        enterpriseJComboBox.setForeground(new java.awt.Color(204, 204, 204));
         enterpriseJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        enterpriseJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        submitJButton.setBackground(new java.awt.Color(88, 177, 159));
+        submitJButton.setBackground(new java.awt.Color(204, 204, 204));
         submitJButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         submitJButton.setText("Submit");
+        submitJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
@@ -168,7 +171,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setText("Admin Name");
 
-        backJButton.setBackground(new java.awt.Color(88, 177, 159));
+        backJButton.setBackground(new java.awt.Color(204, 204, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,25 +179,17 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/hosp_admin.jpg"))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, 441, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 453, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(183, 183, 183))
+            .addGap(0, 409, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -360,7 +355,6 @@ private void clearFields() {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameJTextField;

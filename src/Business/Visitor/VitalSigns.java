@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Little Giants
+ * @author Abhishek Badhe
  */
 public class VitalSigns {
     private int respiratoryRate;

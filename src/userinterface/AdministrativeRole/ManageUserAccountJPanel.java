@@ -106,12 +106,12 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         roleJComboBox = new javax.swing.JComboBox();
         jPasswordField1 = new javax.swing.JPasswordField();
         jPanel1 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
-        createUserJButton.setBackground(new java.awt.Color(88, 177, 159));
+        createUserJButton.setBackground(new java.awt.Color(204, 204, 204));
         createUserJButton.setText("Create");
+        createUserJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         createUserJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 createUserJButtonActionPerformed(evt);
@@ -157,9 +157,10 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Employee");
 
-        employeeJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        employeeJComboBox.setBackground(new java.awt.Color(204, 204, 204));
+        employeeJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        backjButton1.setBackground(new java.awt.Color(88, 177, 159));
+        backjButton1.setBackground(new java.awt.Color(204, 204, 255));
         backjButton1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         backjButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         backjButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -171,7 +172,8 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setText("Organization");
 
-        organizationJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        organizationJComboBox.setBackground(new java.awt.Color(204, 204, 204));
+        organizationJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         organizationJComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 organizationJComboBoxActionPerformed(evt);
@@ -181,27 +183,20 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Role");
 
-        roleJComboBox.setBackground(new java.awt.Color(88, 177, 159));
+        roleJComboBox.setBackground(new java.awt.Color(204, 204, 204));
+        roleJComboBox.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/user_icon.gif"))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 812, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, 637, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 649, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -353,7 +348,6 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JScrollPane jScrollPane1;

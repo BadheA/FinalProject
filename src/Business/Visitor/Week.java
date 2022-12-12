@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Little Giants
+ * @author Abhishek Badhe
  */
 public class Week {
     private String weekName;

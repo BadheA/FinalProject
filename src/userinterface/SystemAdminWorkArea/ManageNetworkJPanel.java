@@ -67,7 +67,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jPanel2 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         networkJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -104,9 +104,10 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("City Name");
 
-        submitJButton.setBackground(new java.awt.Color(88, 177, 159));
+        submitJButton.setBackground(new java.awt.Color(204, 204, 255));
         submitJButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         submitJButton.setText("Submit");
+        submitJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
@@ -115,8 +116,9 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
 
         nameJTextField.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
-        backJButton.setBackground(new java.awt.Color(88, 177, 159));
+        backJButton.setBackground(new java.awt.Color(204, 204, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
+        backJButton.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backJButtonActionPerformed(evt);
@@ -140,7 +142,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
             .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/city.jpg"))); // NOI18N
 
@@ -170,7 +172,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
                         .addContainerGap()
                         .addComponent(backJButton))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(138, 138, 138)
+                        .addGap(180, 180, 180)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addGroup(layout.createSequentialGroup()
@@ -203,7 +205,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(713, Short.MAX_VALUE))
+                .addContainerGap(715, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

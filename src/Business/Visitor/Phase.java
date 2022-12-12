@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  *
- * @author Little Giants
+ * @author Abhishek Badhe
  */
 public class Phase {
     private String phaseName;

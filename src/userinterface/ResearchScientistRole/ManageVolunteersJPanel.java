@@ -167,9 +167,8 @@ public class ManageVolunteersJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
-        VolunteerJTable.setBackground(new java.awt.Color(204, 255, 204));
         VolunteerJTable.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         VolunteerJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -203,7 +202,7 @@ public class ManageVolunteersJPanel extends javax.swing.JPanel {
             VolunteerJTable.getColumnModel().getColumn(5).setResizable(false);
         }
 
-        backBtn.setBackground(new java.awt.Color(88, 177, 159));
+        backBtn.setBackground(new java.awt.Color(204, 204, 255));
         backBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/Images/back.png"))); // NOI18N
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,17 +222,18 @@ public class ManageVolunteersJPanel extends javax.swing.JPanel {
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setText("Phase 4 dose");
 
-        dose2.setBackground(new java.awt.Color(88, 177, 159));
+        dose2.setBackground(new java.awt.Color(204, 204, 255));
 
-        dose3.setBackground(new java.awt.Color(88, 177, 159));
+        dose3.setBackground(new java.awt.Color(204, 204, 255));
 
-        dose4.setBackground(new java.awt.Color(88, 177, 159));
+        dose4.setBackground(new java.awt.Color(204, 204, 255));
 
-        dose1.setBackground(new java.awt.Color(88, 177, 159));
+        dose1.setBackground(new java.awt.Color(204, 204, 255));
 
-        jButton2.setBackground(new java.awt.Color(88, 177, 159));
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setText("Assign doses to volunteer");
+        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -243,7 +243,7 @@ public class ManageVolunteersJPanel extends javax.swing.JPanel {
         jLabel16.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel16.setText("Assign to");
 
-        researchAssistant.setBackground(new java.awt.Color(88, 177, 159));
+        researchAssistant.setBackground(new java.awt.Color(204, 204, 255));
         researchAssistant.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 researchAssistantActionPerformed(evt);
